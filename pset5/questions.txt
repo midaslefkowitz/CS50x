@@ -1,0 +1,19 @@
+0.  BMP = 2^32, GIF = 2^24, JPEG 2^24, PNG = 2^24
+1.  GIF
+2.  Lossless compression means that when compressed the file does not lose any quality. Lossy means that compression causes a loss of quality.
+3.  JPEG is lossy
+4.  The OS marks the directory as safe to use. It also adds those clusters to the list of empty clusters
+5.  Overwrite with all zeroes, or even better with a "Guttman pattern".
+6.  It contains the definitions of several new integer types to enhance the portability of programs.
+7.  Since they are guaranteed to be the same size across all machines this ensures that the new image will be the appropriate size.
+8.  BYTE = 8 bits (1 byte). DWORD = 32 bits (4 bytes). LONG = 32 bits (4 bytes). WORD = 16 bits (2 bytes).
+9.  0x4D42
+10. bfsize = The size, in bytes, of the bitmap file. bisize = The number of bytes required by the structure.
+11. The bitmap is a top-down DIB and its origin is the upper left corner.
+12. biBitCount
+13. If it is unable to create a new bmp to write to (for example: if out of memory)
+14. Because it is reading one RGBTRIPLE at a time. 
+15. 3.
+16. Skips over any padding, if any.
+17. It's a constant which represents the current position in the file when used in fseek or fseeko
+18. Milo Banana
