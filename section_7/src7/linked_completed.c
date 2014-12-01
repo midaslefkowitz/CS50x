@@ -79,7 +79,7 @@ bool insert_node(int value)
     // first insertion
     if (head == NULL)
     {
-        new_node->next = head;
+        new_node->next = NULL;
         head = new_node;
         return true;
     }
