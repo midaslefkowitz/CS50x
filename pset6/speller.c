@@ -152,7 +152,7 @@ int main(int argc, char* argv[])
     // calculate time to determine dictionary's size
     ti_size = calculate(&before, &after);
 
-    // unload dictionary
+    // unload dictionary15
     getrusage(RUSAGE_SELF, &before);
     bool unloaded = unload();
     getrusage(RUSAGE_SELF, &after);

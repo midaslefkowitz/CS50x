@@ -1,11 +1,11 @@
-0.  TODO
-1.  TODO
-2.  TODO
-3.  TODO
-4.  TODO
-5.  TODO
-6.  TODO
-7.  TODO
-8.  TODO
-9.  TODO
-10. TODO
+0.  A lung disease that is otherwise known as silicosis.
+1.  It returns  resource usage measures.
+2.  16.
+3.  Why waste the resources copying when we can pass a reference?
+4.  After loading a textfile and a dictionary, main() function starts reading a text symbol-by-symbol, with a goal of constructing separate words. A word is completed when one or more alphabetic symbols are read, and we encounted a non-alphanumeric character (like spacebar, or newline). Then we check our word for misspellings, reset the word index to zero, and continue the symbol reading loop. If we encounter a digit, or a string tends to be too long, we traverse this word in the text, but we won't check it for misspellings.
+5.  There are several problems with fscanf - first, you must allocate a memory for a string before reading it from file, and there are no limits of a length of a word in a text file. Also you can't write program logic for skipping alphanumeric words, like this implementation of speller has. Overall, this approach gives us much less flexibility.
+6.  Those parameters are never intented to be modified in the functions, so we wrote an other layer of ensuring this behavior.
+7.  trie. each node has an array of 27 children nodes and a boolean value indicating if this node is the end of a word.
+8.  Total: .45
+9.  none
+10. no
